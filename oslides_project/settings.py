@@ -131,6 +131,8 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
+django_heroku.settings(locals())
+
 
 # CORS Configuration
 CORS_ORIGIN_ALLOW_ALL = True
